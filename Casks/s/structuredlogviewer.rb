@@ -6,7 +6,7 @@ cask "structuredlogviewer" do
          intel: "69dc706368a2004f5ca421cd700c4b2e865989b1ef6d9649de222fba97af0ff7"
 
   on_arm do
-    depends_on macos: :big_sur
+    depends_on macos: :monterey
   end
   on_intel do
     depends_on macos: :catalina
